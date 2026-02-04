@@ -1,0 +1,407 @@
+:root{
+  --bg:#f6f7fb;
+  --card:#ffffff;
+  --text:#0b1220;
+  --muted:#58627a;
+  --accent:#1e90ff;
+  --border:rgba(10,20,40,.10);
+  --shadow:0 6px 18px rgba(10,20,40,.08);
+  --highlight:#fff3d7; /* 目に優しい淡いクリーム */
+}
+
+*{box-sizing:border-box}
+html{ -webkit-text-size-adjust:100%; }
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:system-ui,-apple-system,Segoe UI,Roboto,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
+  overflow-x:hidden;
+}
+
+/* ========= header (smart / compact) ========= */
+.topbar{
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(246,247,251,.86);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  box-shadow: 0 8px 22px rgba(10,20,40,.06);
+  padding:
+    calc(10px + env(safe-area-inset-top))
+    calc(12px + env(safe-area-inset-right))
+    8px
+    calc(12px + env(safe-area-inset-left));
+  transition: box-shadow .18s ease;
+}
+
+.topbarInner{
+  max-width: 1180px;
+  margin: 0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  min-width:0;
+  font-weight:900;
+  letter-spacing:.02em;
+}
+
+.appIcon{
+  width:30px;
+  height:30px;
+  border-radius:10px;
+  box-shadow: 0 8px 18px rgba(10,20,40,.10);
+  flex:0 0 auto;
+}
+
+.brandText{
+  min-width:0;
+  display:flex;
+  flex-direction:column;
+  line-height:1.08;
+}
+.brandTitle{
+  font-size:16px;
+  font-weight:950;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+.brandSub{
+  font-size:12px;
+  font-weight:800;
+  color:rgba(0,0,0,.55);
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+/* --- tabs (NO "plate") --- */
+.tabsWrap{
+  margin:0;
+  display:flex;
+  justify-content:flex-end;
+}
+.tabs{
+  display:inline-flex;
+  gap:8px;
+  padding:0;                 /* ← 皿の原因になる padding/bg/border を撤去 */
+  margin:0;
+  background:transparent;    /* ← 皿を撤去 */
+  border:0;                  /* ← 皿を撤去 */
+  box-shadow:none;           /* ← 皿を撤去 */
+  flex-wrap:nowrap;
+}
+
+.tab{
+  appearance:none;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.78);
+  color: rgba(0,0,0,.82);
+  border-radius:999px;
+  padding: 8px 12px;         /* 少し細め */
+  min-height:40px;           /* タップしやすさは維持 */
+  cursor:pointer;
+  font-weight:900;
+  font-size:14px;
+  line-height:1;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:6px;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color .12s ease, border-color .12s ease, transform .06s ease, color .12s ease;
+}
+.tab:active{ transform: translateY(1px); }
+.tab.active{
+  background: var(--accent);
+  border-color: transparent;
+  color:#fff;
+  box-shadow: 0 10px 22px rgba(30,144,255,.18);
+}
+
+.topbar.compact{
+  padding:
+    calc(6px + env(safe-area-inset-top))
+    calc(12px + env(safe-area-inset-right))
+    6px
+    calc(12px + env(safe-area-inset-left));
+  box-shadow: 0 6px 16px rgba(10,20,40,.06);
+}
+.topbar.compact .brandSub{ display:none; }
+.topbar.compact .appIcon{ width:26px; height:26px; border-radius:9px; }
+.topbar.compact .brandTitle{ font-size:15px; }
+.topbar.compact .tab{ min-height:36px; padding:7px 10px; font-size:13px; }
+
+/* ===== FIX: PCでは compact を無効化（ヘッダー揺れ防止） =====
+   PCはスクロールで高さを変えない（scrollY が揺れて on/off ループになるのを根本回避） */
+@media (min-width: 901px){
+  /* compact クラスが付いても“見た目（高さ）”が変わらないように上書き */
+  .topbar.compact{
+    padding:
+      calc(10px + env(safe-area-inset-top))
+      calc(12px + env(safe-area-inset-right))
+      8px
+      calc(12px + env(safe-area-inset-left));
+    box-shadow: 0 8px 22px rgba(10,20,40,.06);
+  }
+  .topbar.compact .brandSub{ display:block; }
+  .topbar.compact .appIcon{ width:30px; height:30px; border-radius:10px; }
+  .topbar.compact .brandTitle{ font-size:16px; }
+  .topbar.compact .tab{ min-height:40px; padding:8px 12px; font-size:14px; }
+
+  /* PCでは padding アニメを切って“揺れの燃料”を減らす */
+  .topbar{ transition: box-shadow .18s ease; }
+
+  /* もしPCでチラつきが残るなら、次の3行のコメントを外してください（backdrop-filterが原因のケース用） */
+  /* .topbar{ backdrop-filter:none; -webkit-backdrop-filter:none; background: rgba(246,247,251,.96); } */
+}
+
+/* mobile: 2段にしてスッキリ & 高さを抑える */
+@media (max-width: 640px){
+  .topbar{ padding-bottom: 6px; }
+  .topbarInner{
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .tabsWrap{ justify-content:center; }
+  .tabs{
+    width:100%;
+    justify-content:space-between;
+    gap:6px;
+  }
+  .tab{
+    flex:1 1 auto;
+    text-align:center;
+    min-height:38px;
+    padding:8px 10px;
+  }
+  .brandSub{ display:none; }
+}
+
+/* ========= layout ========= */
+.container{
+  max-width:1180px;
+  margin:0 auto;
+  padding: 14px 12px calc(18px + env(safe-area-inset-bottom));
+}
+
+/* ========= cards / form ========= */
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:12px;
+  margin:10px 0;
+  box-shadow:var(--shadow);
+}
+
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.label{color:var(--muted);font-size:12px}
+.small{font-size:12px;color:var(--muted)}
+
+input,select,button{font:inherit}
+button, input, select{ touch-action:manipulation; }
+
+input[type="time"],input[type="text"],select{
+  background:#fff;
+  color:var(--text);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:8px 10px;
+}
+select:disabled,input:disabled{opacity:.55}
+
+/* iOS: フォーカスズーム抑止（16px以上） */
+@media (max-width: 520px){
+  input[type="text"], input[type="time"], select, button{ font-size:16px; }
+}
+
+.btn{
+  appearance:none;
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.88);
+  color: rgba(0,0,0,.85);
+  padding:9px 12px;
+  border-radius:12px;
+  cursor:pointer;
+  font-weight:900;
+}
+.btn:active{ transform: translateY(1px); }
+.btn.primary{background:var(--accent);border-color:transparent;color:white}
+
+.sectionGrid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap:12px;
+  margin-top:12px;
+}
+.filtersGrid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap:12px;
+  margin-top:12px;
+}
+.fitem{display:flex;flex-direction:column;gap:6px}
+.span2{grid-column: 1 / -1;}
+.spanAll{grid-column: 1 / -1;}
+.checksRow{gap:18px;}
+.nowrap{flex-wrap:nowrap}
+
+/* prevent select from forcing large widths */
+.sectionGrid select, .sectionGrid input { min-width: 0; }
+
+/* Input with clear button */
+.inputWithClear{ position:relative; display:flex; align-items:center; gap:6px; }
+.inputWithClear input{ flex:1; }
+.clearBtn{
+  width:34px; height:34px;
+  border:1px solid var(--border);
+  background: rgba(0,0,0,0.04);
+  border-radius:10px;
+  font-size:18px; line-height:1;
+  cursor:pointer;
+}
+.clearBtn:disabled{ opacity:0.35; cursor:default; }
+.inlineLabel{ font-size:12px; color:#555; white-space:nowrap; }
+
+.manualRow{align-items:flex-end;}
+.manualStack{display:flex;flex-direction:column;gap:4px;}
+.manualStack .inlineLabel{margin:0;white-space:nowrap;}
+.manualRow .manualStack select{min-width:72px;}
+
+@media (max-width: 520px){
+  .manualRow{ flex-direction:column; align-items:stretch; gap:10px; }
+  .manualRow .manualStack{ width:100%; }
+  .manualRow .manualStack select{ width:100%; }
+  .anytimeLabel{ width:100%; }
+  .checksRow{ flex-direction:column; align-items:flex-start; gap:10px; }
+  .clearBtn{ width:40px; height:40px; }
+}
+
+/* ========= table (desktop) ========= */
+.tableWrap{overflow:auto}
+.table{width:100%;border-collapse:collapse;min-width:920px}
+.table th,.table td{border-bottom:1px solid var(--border);padding:8px 6px;text-align:left;vertical-align:top}
+.table th{color:var(--muted);font-weight:800;font-size:12px;white-space:nowrap}
+
+.nameRow{display:flex;align-items:center;gap:8px;white-space:nowrap;overflow:hidden}
+.nameText{font-weight:900;overflow:hidden;text-overflow:ellipsis}
+
+.badge{
+  display:inline-block;
+  border:1px solid var(--border);
+  border-radius:999px;
+  padding:2px 8px;
+  color:var(--muted);
+  font-size:12px;
+  background:rgba(255,255,255,.85);
+}
+.badge.now{
+  color:#6a4d00;
+  border-color:rgba(120,90,10,.20);
+  background:rgba(255,243,215,.85);
+}
+
+.hidden{display:none}
+
+/* --- responsive “table card化” は残す（ただし現在は app.js でテーブルをスマホ非表示にしているので副作用なし） */
+@media (max-width: 640px){
+  .table{ min-width:0; }
+  .tableWrap{ overflow:visible; }
+  .table thead{display:none;}
+  .table, .table tbody, .table tr, .table td{display:block;width:100%;}
+  .table{border:0;}
+  .table tr{
+    border:1px solid rgba(0,0,0,.12);
+    border-radius:14px;
+    padding:10px 12px;
+    margin:10px 0;
+    background:#fff;
+  }
+  .table td{
+    border:0;
+    padding:6px 0;
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+  }
+  .table td::before{
+    content:attr(data-label);
+    font-weight:800;
+    color:rgba(0,0,0,.55);
+    flex:0 0 5.5em;
+  }
+  .table td.td-name{padding-top:2px;}
+  .table td.td-name::before{content:"";}
+  .table td.td-name{display:block;}
+  .table td.td-name .nameRow{display:flex;justify-content:space-between;gap:10px;align-items:center;}
+  .badge{max-width:100%;white-space:normal; word-break:break-word;}
+  .nameRow{ white-space:normal; }
+}
+
+/* ========= footer ========= */
+/* app.js の status("") で display:none にされる前提。
+   “常時固定” をやめ、出る時だけ自然に表示（下の領域を奪わない） */
+.footer{
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(246,247,251,.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-top: 1px solid var(--border);
+  padding:
+    10px
+    calc(12px + env(safe-area-inset-right))
+    calc(10px + env(safe-area-inset-bottom))
+    calc(12px + env(safe-area-inset-left));
+}
+
+/* ========= compact list base ========= */
+/* app.js で !important 付きの注入CSSが入るので、ここは保険程度 */
+.cList{ display:flex; flex-direction:column; gap:8px; }
+.cRow{
+  border: 1px solid var(--border);
+  background: var(--card);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.cHead{ display:flex; align-items:center; gap:10px; padding: 12px 12px; }
+.cChk{ display:flex; align-items:center; gap:8px; flex:0 0 auto; }
+.cChk input{ width:20px; height:20px; }
+.cMain{ min-width:0; flex:1 1 auto; display:flex; flex-direction:column; gap:4px; }
+.cTopLine{ display:flex; align-items:center; gap:10px; min-width:0; }
+.cNo{ font-weight:900; font-size:12px; color: var(--muted); flex:0 0 auto; }
+.cNameBtn{
+  appearance:none; border:0; background:transparent;
+  padding:0; margin:0; text-align:left;
+  font-weight:950; font-size:15px; color: var(--text);
+  min-width:0; flex:1 1 auto;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+.cBadges{ display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+.cToggle{
+  border:1px solid var(--border);
+  background: rgba(255,255,255,.7);
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-weight:900;
+}
+.cDetail{ padding: 0 12px 12px 12px; }
+.cGrid{ display:grid; grid-template-columns: 1fr 1fr; gap:8px; margin-top: 10px; }
+.cItem{ border:1px solid var(--border); background: rgba(255,255,255,.65); border-radius:12px; padding:10px; }
+.cLabel{ font-size:11px; color: var(--muted); font-weight:900; margin-bottom:4px; }
+.cVal{ font-size:13px; font-weight:900; color: var(--text); word-break: break-word; }
