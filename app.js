@@ -1027,15 +1027,26 @@ document.querySelectorAll(".tab").forEach(btn => btn.addEventListener("click", (
 (function initSmartHeader(){
   const header = document.querySelector(".topbar");
   if(!header) return;
-  let last = null;
+
+  // NOTE:
+  // At very small scroll positions, toggling header height can itself change scrollY
+  // a few pixels, which can cause rapid on/off ("jitter"). We avoid that with hysteresis.
+  const ENTER_Y = 16; // become compact when scrollY is above this
+  const EXIT_Y  = 4;  // return to normal when scrollY is below this
+
+  let isCompact = header.classList.contains("compact");
   let ticking = false;
 
+  const apply = (next)=>{
+    if (next === isCompact) return;
+    isCompact = next;
+    header.classList.toggle("compact", isCompact);
+  };
+
   const update = ()=>{
-    const compact = (window.scrollY || 0) > 8;
-    if (compact !== last) {
-      header.classList.toggle("compact", compact);
-      last = compact;
-    }
+    const y = window.scrollY || 0;
+    if (!isCompact && y > ENTER_Y) apply(true);
+    else if (isCompact && y < EXIT_Y) apply(false);
     ticking = false;
   };
 
@@ -1046,9 +1057,11 @@ document.querySelectorAll(".tab").forEach(btn => btn.addEventListener("click", (
   };
 
   window.addEventListener("scroll", onScroll, {passive:true});
-  // initial
-  onScroll();
+
+  // initial (after layout settles)
+  (window.requestAnimationFrame || setTimeout)(update, 0);
 })();
+
 
 (async ()=>{
   if ("serviceWorker" in navigator) {
