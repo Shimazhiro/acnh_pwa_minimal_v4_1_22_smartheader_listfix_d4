@@ -1,0 +1,3312 @@
+[
+  {
+    "id": "fish-1",
+    "category": "fish",
+    "no": 1,
+    "name": "タナゴ",
+    "price": 900,
+    "place": "川",
+    "condition": "小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-2",
+    "category": "fish",
+    "no": 2,
+    "name": "オイカワ",
+    "price": 200,
+    "place": "川",
+    "condition": "小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "9時～16時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-3",
+    "category": "fish",
+    "no": 3,
+    "name": "フナ",
+    "price": 160,
+    "place": "川",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-4",
+    "category": "fish",
+    "no": 4,
+    "name": "ウグイ",
+    "price": 240,
+    "place": "川",
+    "condition": "中",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-5",
+    "category": "fish",
+    "no": 5,
+    "name": "コイ",
+    "price": 300,
+    "place": "池",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-6",
+    "category": "fish",
+    "no": 6,
+    "name": "ニシキゴイ",
+    "price": 4000,
+    "place": "池",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-7",
+    "category": "fish",
+    "no": 7,
+    "name": "キンギョ",
+    "price": 1300,
+    "place": "池",
+    "condition": "小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-8",
+    "category": "fish",
+    "no": 8,
+    "name": "デメキン",
+    "price": 1300,
+    "place": "池",
+    "condition": "小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "9時～16時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-9",
+    "category": "fish",
+    "no": 9,
+    "name": "ランチュウ",
+    "price": 4500,
+    "place": "池",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "9時～16時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-10",
+    "category": "fish",
+    "no": 10,
+    "name": "メダカ",
+    "price": 300,
+    "place": "池",
+    "condition": "小",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-11",
+    "category": "fish",
+    "no": 11,
+    "name": "ザリガニ",
+    "price": 200,
+    "place": "池",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-12",
+    "category": "fish",
+    "no": 12,
+    "name": "スッポン",
+    "price": 3750,
+    "place": "川",
+    "condition": "中",
+    "months": {
+      "north": [
+        8,
+        9
+      ],
+      "south": [
+        2,
+        3
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-13",
+    "category": "fish",
+    "no": 13,
+    "name": "カミツキガメ",
+    "price": 5000,
+    "place": "川",
+    "condition": "中",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "21時～翌4時",
+      "windows": [
+        [
+          21.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-14",
+    "category": "fish",
+    "no": 14,
+    "name": "オタマジャクシ",
+    "price": 100,
+    "place": "池",
+    "condition": "小",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "south": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-15",
+    "category": "fish",
+    "no": 15,
+    "name": "カエル",
+    "price": 120,
+    "place": "池",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-16",
+    "category": "fish",
+    "no": 16,
+    "name": "ドンコ",
+    "price": 400,
+    "place": "川",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-17",
+    "category": "fish",
+    "no": 17,
+    "name": "ドジョウ",
+    "price": 400,
+    "place": "川",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        3,
+        4,
+        5
+      ],
+      "south": [
+        9,
+        10,
+        11
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-18",
+    "category": "fish",
+    "no": 18,
+    "name": "ナマズ",
+    "price": 800,
+    "place": "池",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-19",
+    "category": "fish",
+    "no": 19,
+    "name": "ライギョ",
+    "price": 5500,
+    "place": "池",
+    "condition": "大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2,
+        12
+      ]
+    },
+    "time": {
+      "label": "9時～16時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-20",
+    "category": "fish",
+    "no": 20,
+    "name": "ブルーギル",
+    "price": 180,
+    "place": "川",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "9時～16時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-21",
+    "category": "fish",
+    "no": 21,
+    "name": "イエローパーチ",
+    "price": 300,
+    "place": "川",
+    "condition": "中",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-22",
+    "category": "fish",
+    "no": 22,
+    "name": "ブラックバス",
+    "price": 320,
+    "place": "川",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-23",
+    "category": "fish",
+    "no": 23,
+    "name": "ティラピア",
+    "price": 800,
+    "place": "川",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-24",
+    "category": "fish",
+    "no": 24,
+    "name": "パイク",
+    "price": 1800,
+    "place": "川",
+    "condition": "大",
+    "months": {
+      "north": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-25",
+    "category": "fish",
+    "no": 25,
+    "name": "ワカサギ",
+    "price": 400,
+    "place": "川",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        1,
+        2,
+        12
+      ],
+      "south": [
+        6,
+        7,
+        8
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-26",
+    "category": "fish",
+    "no": 26,
+    "name": "アユ",
+    "price": 900,
+    "place": "川",
+    "condition": "中",
+    "months": {
+      "north": [
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-27",
+    "category": "fish",
+    "no": 27,
+    "name": "ヤマメ",
+    "price": 1000,
+    "place": "川(崖上)",
+    "condition": "中",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-28",
+    "category": "fish",
+    "no": 28,
+    "name": "オオイワナ",
+    "price": 3800,
+    "place": "川(崖上)",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-29",
+    "category": "fish",
+    "no": 29,
+    "name": "ゴールデントラウト",
+    "price": 15000,
+    "place": "川(崖上)",
+    "condition": "中",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-30",
+    "category": "fish",
+    "no": 30,
+    "name": "イトウ",
+    "price": 15000,
+    "place": "川(崖上)",
+    "condition": "特大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        12
+      ],
+      "south": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-31",
+    "category": "fish",
+    "no": 31,
+    "name": "サケ",
+    "price": 700,
+    "place": "川(河口)",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        9
+      ],
+      "south": [
+        3
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-32",
+    "category": "fish",
+    "no": 32,
+    "name": "キングサーモン",
+    "price": 1800,
+    "place": "川(河口)",
+    "condition": "特大",
+    "months": {
+      "north": [
+        9
+      ],
+      "south": [
+        3
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-33",
+    "category": "fish",
+    "no": 33,
+    "name": "シャンハイガニ",
+    "price": 2000,
+    "place": "川",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        9,
+        10,
+        11
+      ],
+      "south": [
+        3,
+        4,
+        5
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-34",
+    "category": "fish",
+    "no": 34,
+    "name": "グッピー",
+    "price": 1300,
+    "place": "川",
+    "condition": "小",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "9時～16時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-35",
+    "category": "fish",
+    "no": 35,
+    "name": "ドクターフィッシュ",
+    "price": 1500,
+    "place": "川",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "9時～16時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-36",
+    "category": "fish",
+    "no": 36,
+    "name": "エンゼルフィッシュ",
+    "price": 3000,
+    "place": "川",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-37",
+    "category": "fish",
+    "no": 37,
+    "name": "ベタ",
+    "price": 2500,
+    "place": "川",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "9時～16時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-38",
+    "category": "fish",
+    "no": 38,
+    "name": "ネオンテトラ",
+    "price": 500,
+    "place": "川",
+    "condition": "小",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "9時～16時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-39",
+    "category": "fish",
+    "no": 39,
+    "name": "レインボーフィッシュ",
+    "price": 800,
+    "place": "川",
+    "condition": "小",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "9時～16時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-40",
+    "category": "fish",
+    "no": 40,
+    "name": "ピラニア",
+    "price": 2500,
+    "place": "川",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "9時～16時、21時～翌4時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ],
+        [
+          21.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-41",
+    "category": "fish",
+    "no": 41,
+    "name": "アロワナ",
+    "price": 10000,
+    "place": "川",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-42",
+    "category": "fish",
+    "no": 42,
+    "name": "ドラド",
+    "price": 15000,
+    "place": "川",
+    "condition": "大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "4時～21時",
+      "windows": [
+        [
+          4.0,
+          21.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-43",
+    "category": "fish",
+    "no": 43,
+    "name": "ガー",
+    "price": 6000,
+    "place": "池",
+    "condition": "特大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-44",
+    "category": "fish",
+    "no": 44,
+    "name": "ピラルク",
+    "price": 10000,
+    "place": "川",
+    "condition": "特大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-45",
+    "category": "fish",
+    "no": 45,
+    "name": "エンドリケリー",
+    "price": 4000,
+    "place": "川",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "21時～翌4時",
+      "windows": [
+        [
+          21.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-46",
+    "category": "fish",
+    "no": 46,
+    "name": "チョウザメ",
+    "price": 10000,
+    "place": "川(河口)",
+    "condition": "特大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-47",
+    "category": "fish",
+    "no": 47,
+    "name": "クリオネ",
+    "price": 1000,
+    "place": "海",
+    "condition": "小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        12
+      ],
+      "south": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-48",
+    "category": "fish",
+    "no": 48,
+    "name": "タツノオトシゴ",
+    "price": 1100,
+    "place": "海",
+    "condition": "小",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-49",
+    "category": "fish",
+    "no": 49,
+    "name": "クマノミ",
+    "price": 650,
+    "place": "海",
+    "condition": "小",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-50",
+    "category": "fish",
+    "no": 50,
+    "name": "ナンヨウハギ",
+    "price": 1000,
+    "place": "海",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-51",
+    "category": "fish",
+    "no": 51,
+    "name": "チョウチョウウオ",
+    "price": 1000,
+    "place": "海",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-52",
+    "category": "fish",
+    "no": 52,
+    "name": "ナポレオンフィッシュ",
+    "price": 10000,
+    "place": "海",
+    "condition": "特大",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "4時～21時",
+      "windows": [
+        [
+          4.0,
+          21.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-53",
+    "category": "fish",
+    "no": 53,
+    "name": "ミノカサゴ",
+    "price": 500,
+    "place": "海",
+    "condition": "中",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-54",
+    "category": "fish",
+    "no": 54,
+    "name": "フグ",
+    "price": 5000,
+    "place": "海",
+    "condition": "中",
+    "months": {
+      "north": [
+        1,
+        2,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "time": {
+      "label": "21時～翌4時",
+      "windows": [
+        [
+          21.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-55",
+    "category": "fish",
+    "no": 55,
+    "name": "ハリセンボン",
+    "price": 250,
+    "place": "海",
+    "condition": "中",
+    "months": {
+      "north": [
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-56",
+    "category": "fish",
+    "no": 56,
+    "name": "アンチョビ",
+    "price": 200,
+    "place": "海",
+    "condition": "小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "4時～21時",
+      "windows": [
+        [
+          4.0,
+          21.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-57",
+    "category": "fish",
+    "no": 57,
+    "name": "アジ",
+    "price": 150,
+    "place": "海",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-58",
+    "category": "fish",
+    "no": 58,
+    "name": "イシダイ",
+    "price": 5000,
+    "place": "海",
+    "condition": "中",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-59",
+    "category": "fish",
+    "no": 59,
+    "name": "スズキ",
+    "price": 400,
+    "place": "海",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-60",
+    "category": "fish",
+    "no": 60,
+    "name": "タイ",
+    "price": 3000,
+    "place": "海",
+    "condition": "中",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-61",
+    "category": "fish",
+    "no": 61,
+    "name": "カレイ",
+    "price": 300,
+    "place": "海",
+    "condition": "中",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-62",
+    "category": "fish",
+    "no": 62,
+    "name": "ヒラメ",
+    "price": 800,
+    "place": "海",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-63",
+    "category": "fish",
+    "no": 63,
+    "name": "イカ",
+    "price": 500,
+    "place": "海",
+    "condition": "中",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-64",
+    "category": "fish",
+    "no": 64,
+    "name": "ウツボ",
+    "price": 2000,
+    "place": "海",
+    "condition": "大",
+    "months": {
+      "north": [
+        8,
+        9,
+        10
+      ],
+      "south": [
+        2,
+        3,
+        4
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-65",
+    "category": "fish",
+    "no": 65,
+    "name": "ハナヒゲウツボ",
+    "price": 600,
+    "place": "海",
+    "condition": "細長",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-66",
+    "category": "fish",
+    "no": 66,
+    "name": "マグロ",
+    "price": 7000,
+    "place": "海(桟橋)",
+    "condition": "特大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-67",
+    "category": "fish",
+    "no": 67,
+    "name": "カジキ",
+    "price": 10000,
+    "place": "海(桟橋)",
+    "condition": "特大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-68",
+    "category": "fish",
+    "no": 68,
+    "name": "ロウニンアジ",
+    "price": 4500,
+    "place": "海(桟橋)",
+    "condition": "大",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-69",
+    "category": "fish",
+    "no": 69,
+    "name": "シイラ",
+    "price": 6000,
+    "place": "海(桟橋)",
+    "condition": "特大",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-70",
+    "category": "fish",
+    "no": 70,
+    "name": "マンボウ",
+    "price": 4000,
+    "place": "海",
+    "condition": "背びれ",
+    "months": {
+      "north": [
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3
+      ]
+    },
+    "time": {
+      "label": "4時～21時",
+      "windows": [
+        [
+          4.0,
+          21.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-71",
+    "category": "fish",
+    "no": 71,
+    "name": "エイ",
+    "price": 3000,
+    "place": "海",
+    "condition": "大",
+    "months": {
+      "north": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "time": {
+      "label": "4時～21時",
+      "windows": [
+        [
+          4.0,
+          21.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-72",
+    "category": "fish",
+    "no": 72,
+    "name": "ノコギリザメ",
+    "price": 12000,
+    "place": "海",
+    "condition": "背びれ",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-73",
+    "category": "fish",
+    "no": 73,
+    "name": "シュモクザメ",
+    "price": 8000,
+    "place": "海",
+    "condition": "背びれ",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-74",
+    "category": "fish",
+    "no": 74,
+    "name": "サメ",
+    "price": 15000,
+    "place": "海",
+    "condition": "背びれ",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-75",
+    "category": "fish",
+    "no": 75,
+    "name": "ジンベイザメ",
+    "price": 13000,
+    "place": "海",
+    "condition": "背びれ",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-76",
+    "category": "fish",
+    "no": 76,
+    "name": "コバンザメ",
+    "price": 1500,
+    "place": "海",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-77",
+    "category": "fish",
+    "no": 77,
+    "name": "チョウチンアンコウ",
+    "price": 2500,
+    "place": "海",
+    "condition": "やや大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": true
+    }
+  },
+  {
+    "id": "fish-78",
+    "category": "fish",
+    "no": 78,
+    "name": "リュウグウノツカイ",
+    "price": 9000,
+    "place": "海",
+    "condition": "特大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        12
+      ],
+      "south": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-79",
+    "category": "fish",
+    "no": 79,
+    "name": "デメニギス",
+    "price": 15000,
+    "place": "海",
+    "condition": "やや小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "21時～翌4時",
+      "windows": [
+        [
+          21.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "fish-80",
+    "category": "fish",
+    "no": 80,
+    "name": "シーラカンス",
+    "price": 15000,
+    "place": "海(雨の日)",
+    "condition": "特大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  }
+]

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <link rel="apple-touch-icon" href="./assets/icon-192.png" />
+  <meta name="theme-color" content="#1e90ff" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./assets/icon-192.png" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>あつまれどうぶつの森 チェックツール</title>
+  <meta name="app-version" content="4.1.22d">
+</head>
+<body>
+<header class="topbar">
+  <div class="topbarInner">
+    <div class="brand">
+      <img class="appIcon" src="./assets/icon-192.png" alt="アイコン" width="32" height="32" />
+      <div class="brandText">
+        <div class="brandTitle">あつ森 チェックツール</div>
+        <div class="brandSub">魚・虫・海の幸</div>
+      </div>
+    </div>
+
+    <div class="tabsWrap">
+      <div class="tabs" role="tablist" aria-label="カテゴリ">
+        <button class="tab active" data-view="fish" role="tab" aria-selected="true">
+          <span>魚</span>
+        </button>
+        <button class="tab" data-view="bugs" role="tab" aria-selected="false">
+          <span>虫</span>
+        </button>
+        <button class="tab" data-view="sea" role="tab" aria-selected="false">
+          <span>海の幸</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <main class="container">
+    <section id="view-fish" class="view"></section>
+    <section id="view-bugs" class="view hidden"></section>
+    <section id="view-sea" class="view hidden"></section>
+  </main>
+
+  <footer class="footer">
+    <span id="statusText">読み込み中…</span>
+  </footer>
+
+  <!-- file:// 直開きでも動くように、データをインライン同梱 -->
+  <script src="./data-inline.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

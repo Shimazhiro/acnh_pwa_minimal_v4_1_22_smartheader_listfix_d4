@@ -1,0 +1,3174 @@
+[
+  {
+    "id": "bugs-1",
+    "category": "bugs",
+    "no": 1,
+    "name": "モンシロチョウ",
+    "price": 160,
+    "place": "花",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "4時～19時",
+      "windows": [
+        [
+          4.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-2",
+    "category": "bugs",
+    "no": 2,
+    "name": "モンキチョウ",
+    "price": 160,
+    "place": "花",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10
+      ],
+      "south": [
+        3,
+        4,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "4時～19時",
+      "windows": [
+        [
+          4.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-3",
+    "category": "bugs",
+    "no": 3,
+    "name": "アゲハチョウ",
+    "price": 240,
+    "place": "空中",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "4時～19時",
+      "windows": [
+        [
+          4.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-4",
+    "category": "bugs",
+    "no": 4,
+    "name": "カラスアゲハ",
+    "price": 2500,
+    "place": "花(青・黒・紫)",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "south": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "4時～19時",
+      "windows": [
+        [
+          4.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-5",
+    "category": "bugs",
+    "no": 5,
+    "name": "アオスジアゲハ",
+    "price": 300,
+    "place": "空中",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "4時～19時",
+      "windows": [
+        [
+          4.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-6",
+    "category": "bugs",
+    "no": 6,
+    "name": "オオゴマダラ",
+    "price": 1000,
+    "place": "空中",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～19時",
+      "windows": [
+        [
+          8.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-7",
+    "category": "bugs",
+    "no": 7,
+    "name": "オオムラサキ",
+    "price": 300,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "4時～19時",
+      "windows": [
+        [
+          4.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-8",
+    "category": "bugs",
+    "no": 8,
+    "name": "オオカバマダラ",
+    "price": 140,
+    "place": "花",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        9,
+        10,
+        11
+      ],
+      "south": [
+        3,
+        4,
+        5
+      ]
+    },
+    "time": {
+      "label": "4時～17時",
+      "windows": [
+        [
+          4.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-9",
+    "category": "bugs",
+    "no": 9,
+    "name": "モルフォチョウ",
+    "price": 4000,
+    "place": "花",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        9,
+        12
+      ]
+    },
+    "time": {
+      "label": "17時～翌8時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-10",
+    "category": "bugs",
+    "no": 10,
+    "name": "ミイロタテハ",
+    "price": 3000,
+    "place": "花",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-11",
+    "category": "bugs",
+    "no": 11,
+    "name": "アカエリトリバネアゲハ",
+    "price": 2500,
+    "place": "空中",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-12",
+    "category": "bugs",
+    "no": 12,
+    "name": "アレクサンドラトリバネアゲハ",
+    "price": 4000,
+    "place": "花",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～16時",
+      "windows": [
+        [
+          8.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-13",
+    "category": "bugs",
+    "no": 13,
+    "name": "ガ",
+    "price": 130,
+    "place": "空中(外灯の近く)",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "19時～翌4時",
+      "windows": [
+        [
+          19.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-14",
+    "category": "bugs",
+    "no": 14,
+    "name": "ヨナグニサン",
+    "price": 3000,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "19時～翌4時",
+      "windows": [
+        [
+          19.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-15",
+    "category": "bugs",
+    "no": 15,
+    "name": "ニシキオオツバメガ",
+    "price": 2500,
+    "place": "花",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～16時",
+      "windows": [
+        [
+          8.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-16",
+    "category": "bugs",
+    "no": 16,
+    "name": "ショウリョウバッタ",
+    "price": 200,
+    "place": "草地",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～19時",
+      "windows": [
+        [
+          8.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-17",
+    "category": "bugs",
+    "no": 17,
+    "name": "トノサマバッタ",
+    "price": 600,
+    "place": "草地",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "time": {
+      "label": "8時～19時",
+      "windows": [
+        [
+          8.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-18",
+    "category": "bugs",
+    "no": 18,
+    "name": "イナゴ",
+    "price": 400,
+    "place": "草地",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "time": {
+      "label": "8時～19時",
+      "windows": [
+        [
+          8.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-19",
+    "category": "bugs",
+    "no": 19,
+    "name": "キリギリス",
+    "price": 160,
+    "place": "草地",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-20",
+    "category": "bugs",
+    "no": 20,
+    "name": "コオロギ",
+    "price": 130,
+    "place": "草地",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        9,
+        10,
+        11
+      ],
+      "south": [
+        3,
+        4,
+        5
+      ]
+    },
+    "time": {
+      "label": "17時～翌8時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-21",
+    "category": "bugs",
+    "no": 21,
+    "name": "スズムシ",
+    "price": 430,
+    "place": "草地",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        9,
+        10
+      ],
+      "south": [
+        3,
+        4
+      ]
+    },
+    "time": {
+      "label": "17時～翌8時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-22",
+    "category": "bugs",
+    "no": 22,
+    "name": "カマキリ",
+    "price": 430,
+    "place": "花",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-23",
+    "category": "bugs",
+    "no": 23,
+    "name": "ハナカマキリ",
+    "price": 2400,
+    "place": "花(白い花・スズラン)",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-24",
+    "category": "bugs",
+    "no": 24,
+    "name": "ミツバチ",
+    "price": 200,
+    "place": "花",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "south": [
+        1,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-25",
+    "category": "bugs",
+    "no": 25,
+    "name": "ハチ",
+    "price": 2500,
+    "place": "木を揺らす",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-26",
+    "category": "bugs",
+    "no": 26,
+    "name": "アブラゼミ",
+    "price": 250,
+    "place": "木(ヤシの木以外)",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-27",
+    "category": "bugs",
+    "no": 27,
+    "name": "ミンミンゼミ",
+    "price": 300,
+    "place": "木(ヤシの木以外)",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-28",
+    "category": "bugs",
+    "no": 28,
+    "name": "クマゼミ",
+    "price": 500,
+    "place": "木(ヤシの木以外)",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-29",
+    "category": "bugs",
+    "no": 29,
+    "name": "ツクツクホウシ",
+    "price": 400,
+    "place": "木(ヤシの木以外)",
+    "condition": "",
+    "months": {
+      "north": [
+        8,
+        9
+      ],
+      "south": [
+        2,
+        3
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-30",
+    "category": "bugs",
+    "no": 30,
+    "name": "ヒグラシ",
+    "price": 550,
+    "place": "木(ヤシの木以外)",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "4時～8時、16時～19時",
+      "windows": [
+        [
+          4.0,
+          8.0
+        ],
+        [
+          16.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-31",
+    "category": "bugs",
+    "no": 31,
+    "name": "セミのぬけがら",
+    "price": 10,
+    "place": "木(ヤシの木以外)",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-32",
+    "category": "bugs",
+    "no": 32,
+    "name": "アキアカネ",
+    "price": 180,
+    "place": "空中",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        9,
+        10
+      ],
+      "south": [
+        3,
+        4
+      ]
+    },
+    "time": {
+      "label": "8時～19時",
+      "windows": [
+        [
+          8.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-33",
+    "category": "bugs",
+    "no": 33,
+    "name": "ギンヤンマ",
+    "price": 230,
+    "place": "空中",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-34",
+    "category": "bugs",
+    "no": 34,
+    "name": "オニヤンマ",
+    "price": 4500,
+    "place": "空中",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-35",
+    "category": "bugs",
+    "no": 35,
+    "name": "イトトンボ",
+    "price": 500,
+    "place": "空中",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        1,
+        2,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-36",
+    "category": "bugs",
+    "no": 36,
+    "name": "ホタル",
+    "price": 300,
+    "place": "水辺(海以外)",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        6
+      ],
+      "south": [
+        12
+      ]
+    },
+    "time": {
+      "label": "19時～翌4時",
+      "windows": [
+        [
+          19.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-37",
+    "category": "bugs",
+    "no": 37,
+    "name": "オケラ",
+    "price": 500,
+    "place": "地中",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-38",
+    "category": "bugs",
+    "no": 38,
+    "name": "アメンボ",
+    "price": 130,
+    "place": "池",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～19時",
+      "windows": [
+        [
+          8.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-39",
+    "category": "bugs",
+    "no": 39,
+    "name": "ゲンゴロウ",
+    "price": 800,
+    "place": "川・池",
+    "condition": "",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～19時",
+      "windows": [
+        [
+          8.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-40",
+    "category": "bugs",
+    "no": 40,
+    "name": "タガメ",
+    "price": 2000,
+    "place": "川・池",
+    "condition": "",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "19時～翌8時",
+      "windows": [
+        [
+          19.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-41",
+    "category": "bugs",
+    "no": 41,
+    "name": "カメムシ",
+    "price": 120,
+    "place": "花",
+    "condition": "",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-42",
+    "category": "bugs",
+    "no": 42,
+    "name": "ジンメンカメムシ",
+    "price": 1000,
+    "place": "花",
+    "condition": "",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "19時～翌8時",
+      "windows": [
+        [
+          19.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-43",
+    "category": "bugs",
+    "no": 43,
+    "name": "テントウムシ",
+    "price": 200,
+    "place": "花",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        10
+      ],
+      "south": [
+        4,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "8時～17時",
+      "windows": [
+        [
+          8.0,
+          17.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-44",
+    "category": "bugs",
+    "no": 44,
+    "name": "ハンミョウ",
+    "price": 1500,
+    "place": "草地",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-45",
+    "category": "bugs",
+    "no": 45,
+    "name": "タマムシ",
+    "price": 2400,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-46",
+    "category": "bugs",
+    "no": 46,
+    "name": "バイオリンムシ",
+    "price": 450,
+    "place": "木(切り株)",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-47",
+    "category": "bugs",
+    "no": 47,
+    "name": "ゴマダラカミキリ",
+    "price": 350,
+    "place": "木(切り株)",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-48",
+    "category": "bugs",
+    "no": 48,
+    "name": "ルリボシカミキリ",
+    "price": 3000,
+    "place": "木(切り株)",
+    "condition": "",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-49",
+    "category": "bugs",
+    "no": 49,
+    "name": "ホウセキゾウムシ",
+    "price": 800,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-50",
+    "category": "bugs",
+    "no": 50,
+    "name": "フンコロガシ",
+    "price": 3000,
+    "place": "雪玉の周辺",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        12
+      ],
+      "south": [
+        6,
+        7,
+        8
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-51",
+    "category": "bugs",
+    "no": 51,
+    "name": "オオセンチコガネ",
+    "price": 300,
+    "place": "草地",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-52",
+    "category": "bugs",
+    "no": 52,
+    "name": "プラチナコガネ",
+    "price": 10000,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "23時～翌8時",
+      "windows": [
+        [
+          23.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-53",
+    "category": "bugs",
+    "no": 53,
+    "name": "カナブン",
+    "price": 200,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        6,
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-54",
+    "category": "bugs",
+    "no": 54,
+    "name": "ゴライアスオオツノハナムグリ",
+    "price": 8000,
+    "place": "木(ヤシの木)",
+    "condition": "",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "17時～翌8時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-55",
+    "category": "bugs",
+    "no": 55,
+    "name": "ノコギリクワガタ",
+    "price": 2000,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-56",
+    "category": "bugs",
+    "no": 56,
+    "name": "ミヤマクワガタ",
+    "price": 1000,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-57",
+    "category": "bugs",
+    "no": 57,
+    "name": "オオクワガタ",
+    "price": 10000,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "23時～翌8時",
+      "windows": [
+        [
+          23.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-58",
+    "category": "bugs",
+    "no": 58,
+    "name": "ニジイロクワガタ",
+    "price": 6000,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "19時～翌8時",
+      "windows": [
+        [
+          19.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-59",
+    "category": "bugs",
+    "no": 59,
+    "name": "ホソアカクワガタ",
+    "price": 8000,
+    "place": "木(ヤシの木)",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "17時～翌8時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-60",
+    "category": "bugs",
+    "no": 60,
+    "name": "オウゴンオニクワガタ",
+    "price": 12000,
+    "place": "木(ヤシの木)",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "17時～翌8時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-61",
+    "category": "bugs",
+    "no": 61,
+    "name": "ギラファノコギリクワガタ",
+    "price": 12000,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "17時～翌8時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-62",
+    "category": "bugs",
+    "no": 62,
+    "name": "カブトムシ",
+    "price": 1350,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "17時～翌8時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-63",
+    "category": "bugs",
+    "no": 63,
+    "name": "コーカサスオオカブト",
+    "price": 8000,
+    "place": "木(ヤシの木)",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "17時～翌8時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-64",
+    "category": "bugs",
+    "no": 64,
+    "name": "ゾウカブト",
+    "price": 8000,
+    "place": "木(ヤシの木)",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "17時～翌8時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-65",
+    "category": "bugs",
+    "no": 65,
+    "name": "ヘラクレスオオカブト",
+    "price": 12000,
+    "place": "木(ヤシの木)",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2
+      ]
+    },
+    "time": {
+      "label": "17時～翌8時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-66",
+    "category": "bugs",
+    "no": 66,
+    "name": "ナナフシ",
+    "price": 600,
+    "place": "木",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "time": {
+      "label": "4時～8時、17時～19時",
+      "windows": [
+        [
+          4.0,
+          8.0
+        ],
+        [
+          17.0,
+          19.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-67",
+    "category": "bugs",
+    "no": 67,
+    "name": "コノハムシ",
+    "price": 600,
+    "place": "木(葉っぱに擬態している)",
+    "condition": "",
+    "months": {
+      "north": [
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-68",
+    "category": "bugs",
+    "no": 68,
+    "name": "ミノムシ",
+    "price": 600,
+    "place": "木を揺らす",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-69",
+    "category": "bugs",
+    "no": 69,
+    "name": "アリ",
+    "price": 80,
+    "place": "地面(腐ったカブ、アメ)",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-70",
+    "category": "bugs",
+    "no": 70,
+    "name": "ヤドカリ",
+    "price": 1000,
+    "place": "浜辺",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "19時～翌8時",
+      "windows": [
+        [
+          19.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-71",
+    "category": "bugs",
+    "no": 71,
+    "name": "フナムシ",
+    "price": 200,
+    "place": "浜辺",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-72",
+    "category": "bugs",
+    "no": 72,
+    "name": "ハエ",
+    "price": 60,
+    "place": "空中(腐ったカブ、ゴミ)",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-73",
+    "category": "bugs",
+    "no": 73,
+    "name": "カ",
+    "price": 130,
+    "place": "空中",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "17時～翌4時",
+      "windows": [
+        [
+          17.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-74",
+    "category": "bugs",
+    "no": 74,
+    "name": "ノミ",
+    "price": 70,
+    "place": "住民の体",
+    "condition": "",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-75",
+    "category": "bugs",
+    "no": 75,
+    "name": "カタツムリ",
+    "price": 250,
+    "place": "岩(雨天時)",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "24時間",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-76",
+    "category": "bugs",
+    "no": 76,
+    "name": "ダンゴムシ",
+    "price": 250,
+    "place": "岩(岩を叩く)",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "23時～翌16時",
+      "windows": [
+        [
+          23.0,
+          24.0
+        ],
+        [
+          0.0,
+          16.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-77",
+    "category": "bugs",
+    "no": 77,
+    "name": "ムカデ",
+    "price": 300,
+    "place": "岩(岩を叩く)",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～23時",
+      "windows": [
+        [
+          16.0,
+          23.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-78",
+    "category": "bugs",
+    "no": 78,
+    "name": "クモ",
+    "price": 600,
+    "place": "木を揺らす",
+    "condition": "",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "19時～翌8時",
+      "windows": [
+        [
+          19.0,
+          24.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-79",
+    "category": "bugs",
+    "no": 79,
+    "name": "タランチュラ",
+    "price": 8000,
+    "place": "草地・地面",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "time": {
+      "label": "19時～翌4時",
+      "windows": [
+        [
+          19.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "bugs-80",
+    "category": "bugs",
+    "no": 80,
+    "name": "サソリ",
+    "price": 8000,
+    "place": "草地・地面",
+    "condition": "雨、雪以外",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "19時～翌4時",
+      "windows": [
+        [
+          19.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  }
+]

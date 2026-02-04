@@ -1,0 +1,1670 @@
+[
+  {
+    "id": "sea-1",
+    "category": "sea",
+    "no": 1,
+    "name": "ワカメ",
+    "price": 600,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-2",
+    "category": "sea",
+    "no": 2,
+    "name": "ウミブドウ",
+    "price": 900,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-3",
+    "category": "sea",
+    "no": 3,
+    "name": "ナマコ",
+    "price": 500,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-4",
+    "category": "sea",
+    "no": 4,
+    "name": "センジュナマコ",
+    "price": 10000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-5",
+    "category": "sea",
+    "no": 5,
+    "name": "ヒトデ",
+    "price": 500,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-6",
+    "category": "sea",
+    "no": 6,
+    "name": "ウニ",
+    "price": 1700,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-7",
+    "category": "sea",
+    "no": 7,
+    "name": "パイプウニ",
+    "price": 2000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-8",
+    "category": "sea",
+    "no": 8,
+    "name": "イソギンチャク",
+    "price": 500,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-9",
+    "category": "sea",
+    "no": 9,
+    "name": "ミズクラゲ",
+    "price": 600,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-10",
+    "category": "sea",
+    "no": 10,
+    "name": "ウミウシ",
+    "price": 600,
+    "place": "海（素潜り）",
+    "condition": "小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-11",
+    "category": "sea",
+    "no": 11,
+    "name": "アコヤガイ",
+    "price": 2800,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-12",
+    "category": "sea",
+    "no": 12,
+    "name": "ムールガイ",
+    "price": 1500,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-13",
+    "category": "sea",
+    "no": 13,
+    "name": "オイスター",
+    "price": 1100,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-14",
+    "category": "sea",
+    "no": 14,
+    "name": "ホタテ",
+    "price": 1200,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-15",
+    "category": "sea",
+    "no": 15,
+    "name": "バイガイ",
+    "price": 1000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-16",
+    "category": "sea",
+    "no": 16,
+    "name": "サザエ",
+    "price": 1000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-17",
+    "category": "sea",
+    "no": 17,
+    "name": "アワビ",
+    "price": 2000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-18",
+    "category": "sea",
+    "no": 18,
+    "name": "オオシャコガイ",
+    "price": 15000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-19",
+    "category": "sea",
+    "no": 19,
+    "name": "オウムガイ",
+    "price": 1800,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-20",
+    "category": "sea",
+    "no": 20,
+    "name": "タコ",
+    "price": 1200,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-21",
+    "category": "sea",
+    "no": 21,
+    "name": "メンダコ",
+    "price": 6000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        9,
+        10,
+        11
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-22",
+    "category": "sea",
+    "no": 22,
+    "name": "コウモリダコ",
+    "price": 10000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-23",
+    "category": "sea",
+    "no": 23,
+    "name": "ホタルイカ",
+    "price": 1400,
+    "place": "海（素潜り）",
+    "condition": "小",
+    "months": {
+      "north": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "south": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "21時～翌4時",
+      "windows": [
+        [
+          21.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-24",
+    "category": "sea",
+    "no": 24,
+    "name": "ガザミ",
+    "price": 2200,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-25",
+    "category": "sea",
+    "no": 25,
+    "name": "ダンジネスクラブ",
+    "price": 1900,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-26",
+    "category": "sea",
+    "no": 26,
+    "name": "ズワイガニ",
+    "price": 6000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-27",
+    "category": "sea",
+    "no": 27,
+    "name": "タラバガニ",
+    "price": 8000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        11,
+        12
+      ],
+      "south": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-28",
+    "category": "sea",
+    "no": 28,
+    "name": "フジツボ",
+    "price": 600,
+    "place": "海（素潜り）",
+    "condition": "小",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-29",
+    "category": "sea",
+    "no": 29,
+    "name": "タカアシガニ",
+    "price": 12000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        3,
+        4
+      ],
+      "south": [
+        9,
+        10
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-30",
+    "category": "sea",
+    "no": 30,
+    "name": "クルマエビ",
+    "price": 3000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-31",
+    "category": "sea",
+    "no": 31,
+    "name": "アマエビ",
+    "price": 1400,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-32",
+    "category": "sea",
+    "no": 32,
+    "name": "シャコ",
+    "price": 2500,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-33",
+    "category": "sea",
+    "no": 33,
+    "name": "イセエビ",
+    "price": 5000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        10,
+        11,
+        12
+      ],
+      "south": [
+        4,
+        5,
+        6
+      ]
+    },
+    "time": {
+      "label": "21時～翌4時",
+      "windows": [
+        [
+          21.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-34",
+    "category": "sea",
+    "no": 34,
+    "name": "ロブスター",
+    "price": 4500,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        4,
+        5,
+        6,
+        12
+      ],
+      "south": [
+        6,
+        7,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-35",
+    "category": "sea",
+    "no": 35,
+    "name": "ダイオウグソクムシ",
+    "price": 12000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "time": {
+      "label": "9時～16時、21時～翌4時",
+      "windows": [
+        [
+          9.0,
+          16.0
+        ],
+        [
+          21.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-36",
+    "category": "sea",
+    "no": 36,
+    "name": "カブトガニ",
+    "price": 2500,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        7,
+        8,
+        9
+      ],
+      "south": [
+        1,
+        2,
+        3
+      ]
+    },
+    "time": {
+      "label": "21時～翌4時",
+      "windows": [
+        [
+          21.0,
+          24.0
+        ],
+        [
+          0.0,
+          4.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-37",
+    "category": "sea",
+    "no": 37,
+    "name": "ホヤ",
+    "price": 1500,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "south": [
+        1,
+        2,
+        10,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-38",
+    "category": "sea",
+    "no": 38,
+    "name": "チンアナゴ",
+    "price": 1100,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "south": [
+        1,
+        2,
+        3,
+        4,
+        11,
+        12
+      ]
+    },
+    "time": {
+      "label": "4時～21時",
+      "windows": [
+        [
+          4.0,
+          21.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-39",
+    "category": "sea",
+    "no": 39,
+    "name": "ヒラムシ",
+    "price": 700,
+    "place": "海（素潜り）",
+    "condition": "小",
+    "months": {
+      "north": [
+        8,
+        9
+      ],
+      "south": [
+        2,
+        3
+      ]
+    },
+    "time": {
+      "label": "16時～翌9時",
+      "windows": [
+        [
+          16.0,
+          24.0
+        ],
+        [
+          0.0,
+          9.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  },
+  {
+    "id": "sea-40",
+    "category": "sea",
+    "no": 40,
+    "name": "カイロウドウケツ",
+    "price": 5000,
+    "place": "海（素潜り）",
+    "condition": "大",
+    "months": {
+      "north": [
+        1,
+        2,
+        10,
+        11,
+        12
+      ],
+      "south": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "time": {
+      "label": "いつでも",
+      "windows": [
+        [
+          0.0,
+          24.0
+        ]
+      ]
+    },
+    "initial": {
+      "caught": false
+    }
+  }
+]
